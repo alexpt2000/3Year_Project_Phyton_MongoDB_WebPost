@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block home %}
+<div class="container">
+<<<<<<< HEAD
+    <h3>Welcome to GMIT Posts</h3>
+    {% for posts in posts%}
+    <div class="panel panel-primary">
+=======
+    <h>All Posts</h>
+    {% for posts in posts%}
+    <div class="panel panel-default">
+>>>>>>> Implement a template
+        <div class="panel-heading">
+            <h1 class="panel-title">{{ posts.title }}</h1>
+        </div>
+        <div class="panel-body">{{ posts.description }}
+            <h6 align="right">{{ posts.authorName }} - {{ posts.author }}</h6>
+        </div>
+    </div>
+    {% endfor %}
+
+</div>
+{% endblock %}
