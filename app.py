@@ -33,11 +33,7 @@ def database_initialize():
 
 
 # Authenticate user login
-<<<<<<< HEAD
-@app.route('/auth/login', methods=['POST'])
-=======
 @app.route('/authlogin', methods=['POST'])
->>>>>>> Implement a template
 def login_user():
     email = request.form['email']
     password = request.form['password']
@@ -54,11 +50,7 @@ def login_user():
 
 
 # Authenticate user register
-<<<<<<< HEAD
-@app.route('/auth/register', methods=['POST'])
-=======
 @app.route('/authregister', methods=['POST'])
->>>>>>> Implement a template
 def register_user():
     name = request.form['name']
     email = request.form['email']
@@ -86,11 +78,8 @@ def show_users_post(user_id=None):
 
 
 # Create and show blog
-<<<<<<< HEAD
-@app.route('/posts/new', methods=['POST', 'GET'])
-=======
+
 @app.route('/postsnew', methods=['POST', 'GET'])
->>>>>>> Implement a template
 def create_blog():
     if request.method == 'GET':
         return render_template('new_post.html')
@@ -110,8 +99,5 @@ def logout():
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
-    app.run()
-=======
     app.run(port=4990, debug=True)
->>>>>>> Implement a template
+

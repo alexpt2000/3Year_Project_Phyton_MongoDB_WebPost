@@ -1,18 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="container">
-<<<<<<< HEAD
-    <h2>{{ name }}'s Post</h2>
-    {% for posts in posts%}
-    <div class="panel panel-primary">
-=======
+
     <div>
     <a class="btn btn-primary" role="button" href="/postsnew">New Post {{ name }}</a>
     </div>
     <br>
     {% for posts in posts%}
     <div class="panel panel-default">
->>>>>>> Implement a template
         <div class="panel-heading">
             <h1 class="panel-title">{{ posts.title }}</h1>
         </div>
@@ -21,10 +16,6 @@
         </div>
     </div>
     {% endfor %}
-<<<<<<< HEAD
-    <a class="btn btn-primary" role="button" href="/posts/new">New Post</a>
-=======
 
->>>>>>> Implement a template
 </div>
 {% endblock %}
