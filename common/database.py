@@ -2,7 +2,9 @@ import pymongo
 
 class Database(object):
 
-    URI = "mongodb://127.0.0.1:27017"
+    #URI = "mongodb://127.0.0.1:27017"
+    URI = "mongodb://webgmit:gmit123@ds135797.mlab.com:35797/webposts"
+
     DATABASE = None
 
     @staticmethod
