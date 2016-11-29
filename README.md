@@ -1,5 +1,7 @@
 #Single-page Web Application Project
 
+![](screenshots/Screenshot_1.png)
+
 ##Data Representation and Querying 3rd year Project 2016
 
 This repository contains code and information for our third-year undergraduate project for the module, Data Representation, and Querying.
@@ -80,6 +82,29 @@ if __name__ == '__main__':
 ```
 
 ###References:  
+url;http://flask.pocoo.org/docs/0.11/quickstart/
+url;http://stackoverflow.com/
+url;https://www.python.org/doc/
+url;https://www.youtube.com/
+
+
+###Template:
+url;https://startbootstrap.com/template-overviews/clean-blog/
+
+
+
+![Home Screen](screenshots/Screenshot_1.png)
+
+![Login](screenshots/Screenshot_2.png)
+
+![Sign up](screenshots/Screenshot_3.png)
+
+![Create Post](screenshots/Screenshot_4.png)
+
+![Post form](screenshots/Screenshot_5.png)
+
+![Responsive page](screenshots/Screenshot_6.png)
+
 
 
 
