@@ -2,7 +2,7 @@
 
 ![Home Screen](screenshots/Screenshot_1.png)
 
-##Data Representation and Querying 3rd year Project 2016
+#Data Representation and Querying 3rd year Project 2016
 
 This repository contains code and information for our third-year undergraduate project for the module, Data Representation, and Querying.
 The module is taught to undergraduate students at GMIT in the Department of Computer Science and Applied Physics.
@@ -55,7 +55,7 @@ There is no need to install the database as this is also hosted on mLab.
 
 Run on your own local pc.
 
-The application utilises Python 3.5.2 ,Flask ,pymongo 3.3.1
+The application utilises Python, Flask(Jinja2), MongoDB, Bootstrap.
 
 
 These can be installed simply, by installing Anaconda from the following  https://www.continuum.io/downloads
@@ -112,7 +112,7 @@ https://startbootstrap.com/template-overviews/clean-blog/
 ##Post Form
 ![Post form](screenshots/Screenshot_5.png)
 
-##Responsive page
+##Moile responsive page
 ![Responsive page](screenshots/Screenshot_6.png)
 
 
