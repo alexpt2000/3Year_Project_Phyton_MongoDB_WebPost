@@ -112,7 +112,7 @@ https://startbootstrap.com/template-overviews/clean-blog/
 ##Post Form
 ![Post form](screenshots/Screenshot_5.png)
 
-##Moile responsive page
+##Mobile responsive page
 ![Responsive page](screenshots/Screenshot_6.png)
 
 
