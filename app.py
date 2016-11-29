@@ -1,9 +1,13 @@
 from flask import Flask, render_template, request, session, make_response, redirect, url_for
 
 from common.database import Database
-from models.allPosts import AllPosts
+# from models.allPosts import AllPosts
 from models.user import User
 
+
+# deal with all flask activity , html page calls.
+# secret key => a requirement from flask to allow the use of sessions
+#  reference => http://flask.pocoo.org/docs/0.11/quickstart/#sessions
 app = Flask(__name__)
 app.secret_key = 'GMITblog'
 
@@ -27,6 +31,7 @@ def register_init():
     return render_template('register.html')
 
 
+# initialize the database
 @app.before_first_request
 def database_initialize():
     Database.initialize()
@@ -78,7 +83,6 @@ def show_users_post(user_id=None):
 
 
 # Create and show blog
-
 @app.route('/postsnew', methods=['POST', 'GET'])
 def create_blog():
     if request.method == 'GET':

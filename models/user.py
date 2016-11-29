@@ -5,6 +5,15 @@ from flask import session
 from common.database import Database
 from models.allPosts import AllPosts
 
+# one class to deal with users
+# users objects are created
+# and all activities that a user might want to do are dealt with in this class.
+# creates an user object(with an name, email password and sets _id to none )
+# an auto generated id is created and given a hex unique value
+
+# initialize a user object with attributes of
+# name ,email password and auto generated id.
+
 
 class User(object):
     def __init__(self, name, email, password, _id=None):
@@ -20,6 +29,8 @@ class User(object):
         if data is not None:
             return cls(**data)
 
+# (**data) a python shortcut is an easy way of returning all the elements of the user
+#  instead of writing ie: name, email,password and unique id(_id)
     @classmethod
     def get_by_email(cls, email):
         data = Database.find_one(collection='users', query={'email': email})
