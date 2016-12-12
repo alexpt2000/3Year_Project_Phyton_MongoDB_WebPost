@@ -8,7 +8,7 @@ class Database(object):
 
     # deployment uri and password ,local database commented out.
     # URI = "mongodb://127.0.0.1:27017"
-    URI = "mongodb://webgmit:gmit123@ds135797.mlab.com:35797/webposts"
+    URI = "mongodb://webgmit:pass@ds135797.mlab.com:35797/webposts"
 
     DATABASE = None
 
